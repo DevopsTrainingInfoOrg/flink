@@ -31,7 +31,7 @@ public enum Aggregations {
 
     private final AggregationFunctionFactory factory;
 
-    private Aggregations(AggregationFunctionFactory factory) {
+    public Aggregations(AggregationFunctionFactory factory) {
         this.factory = factory;
     }
 
